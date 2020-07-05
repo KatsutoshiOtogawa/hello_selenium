@@ -10,6 +10,4 @@ driver = webdriver.Chrome(options=chrome_options)
 
 driver.get("https://www.google.com/?hl=ja")
 
-time.sleep(3000)
-
 driver.quit()
