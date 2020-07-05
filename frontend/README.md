@@ -15,7 +15,7 @@ $ sudo dnf install google-chrome-stable-83.0.4103.116-1
 ```
 and you change chromedriver-binary
 ```
-$ pipenv install chromedriver-binary=83.0.4103.116-1
+$ pipenv install chromedriver-binary=83.0.4103.39.0
 ```
 chromedriver-binary is dependency, and you use adapt google-chrome-stable.
 

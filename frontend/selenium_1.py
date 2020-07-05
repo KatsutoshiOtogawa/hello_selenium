@@ -6,7 +6,7 @@ import time
 chrome_options = Options()
 chrome_options.add_argument('--headless')
 
-driver = webdriver.Chrome(chrome_options=chrome_options)
+driver = webdriver.Chrome(options=chrome_options)
 time.sleep(30000)
 driver.get("https://www.google.com/?hl=ja")
 
